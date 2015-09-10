@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45091" started-at="2015-09-10T13:54:40Z" finished-at="2015-09-10T13:55:25Z">
+    <groups>
+      <group name="regression">
+        <method signature="TC01_LoginInvalid.loginInvalid_01_InvalidEmail()[pri:0, instance:login.TC01_LoginInvalid@7877712c]" name="loginInvalid_01_InvalidEmail" class="login.TC01_LoginInvalid"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Default test" duration-ms="45091" started-at="2015-09-10T13:54:40Z" finished-at="2015-09-10T13:55:25Z">
+      <class name="login.TC01_LoginInvalid">
+        <test-method status="PASS" signature="setup()[pri:0, instance:login.TC01_LoginInvalid@7877712c]" name="setup" is-config="true" duration-ms="36935" started-at="2015-09-10T20:54:40Z" finished-at="2015-09-10T20:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginInvalid_01_InvalidEmail()[pri:0, instance:login.TC01_LoginInvalid@7877712c]" name="loginInvalid_01_InvalidEmail" duration-ms="6570" started-at="2015-09-10T20:55:17Z" description="Login invalid: login with invalid email" finished-at="2015-09-10T20:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalid_01_InvalidEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login.TC01_LoginInvalid@7877712c]" name="tearDown" is-config="true" duration-ms="1571" started-at="2015-09-10T20:55:23Z" finished-at="2015-09-10T20:55:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.TC01_LoginInvalid -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

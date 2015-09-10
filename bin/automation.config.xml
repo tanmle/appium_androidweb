@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<automation instance="SmartChat">
+ <instances>
+  <instance tag="MobileWebProject">
+   <browser>browser</browser>
+   <url>http://gmail.com</url> 
+   <deviceName>emulator-5554</deviceName>
+   <devicePlatform>4.4.2</devicePlatform>
+   <appiumURL>http://127.0.0.1:4723/wd/hub</appiumURL>
+  </instance>
+ </instances>
+</automation>
